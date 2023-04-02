@@ -22,7 +22,9 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "format": "prettier --write 'src/**/*.tsx'"
+    "format": "prettier --write 'src/**/*.tsx'",
+    "create-component": "hygen mygen new:component",
+    "create-storyfile": ""
   },
   "eslintConfig": {
     "extends": [
