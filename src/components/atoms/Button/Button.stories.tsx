@@ -1,10 +1,8 @@
 import React from 'react'
-import { ComponentMeta } from '@storybook/react'
+import { type ComponentMeta } from '@storybook/react'
 import Button from './Button'
 
 export default {
     title: 'Button',
-    component: Button,
+    component: Button
 } as ComponentMeta<typeof Button>
-
-
