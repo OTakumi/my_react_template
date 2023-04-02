@@ -24,7 +24,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "format": "prettier --write 'src/**/*.tsx'",
-    "create-component": "hygen mygen new:component",
+    "create-component": "hygen mygen new",
     "create-storyfile": ""
   },
   "eslintConfig": {
