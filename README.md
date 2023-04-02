@@ -44,3 +44,16 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# hygen
+The scalable code generator that saves you time.
+
+## Hygen actions
+Use hygen to create components from templates.
+
+### npx hygen mygen:component_index new [component name]
+Used when creating react components.
+
+### npx hygen mygen:component_storybook new [storyfile name]
+Create a storybook file for each component.
+the name of the storyfile should be the same as the target component.
