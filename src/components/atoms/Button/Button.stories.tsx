@@ -9,6 +9,10 @@ export default {
 
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />
 
+export const DefaultButton = Template.bind({})
+DefaultButton.args = {
+}
+
 export const TextButton = Template.bind({})
 TextButton.args = {
     type: 'button',

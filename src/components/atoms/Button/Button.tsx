@@ -25,9 +25,9 @@ const buttonVariantClasses = (variants: ButtonVariants) => {
     }
 }
 
-const baseButtonClasses = 'px-4 py-2 font-medium'
+const baseButtonClasses = 'px-4 py-2 font-normal'
 
-const Button: React.FC<Props> = ({ type, variant, disabled, children, ...props }: Props) => {
+const Button: React.FC<Props> = ({ type='button', variant='contained', disabled, children='Button', ...props }: Props) => {
 
   return (
     <>
